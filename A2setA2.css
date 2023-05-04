@@ -1,0 +1,18 @@
+item_name
+{
+	display:block;
+	Color:red;
+	Font-family:Copperplate Gothic Light;
+	Font-size:16pt;
+	Font:bold;
+}
+item_price,quantity
+{
+	display:block;
+	color:green;
+	font-family:Arial;
+	font-size:12pt;
+	font:bold;
+}
+
+

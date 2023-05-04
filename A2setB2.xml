@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+	<movieinfo>
+		<movieno>101</movieno>
+		<movie_title>Pathan</movie_title>
+		<actor_name>Sharukh Khan</actor_name>
+		<release_year>2023</release_year>
+	</movieinfo>
+	<movieinfo>
+		<movieno>102</movieno>
+		<movie_title>Dangal</movie_title>
+		<actor_name>Amir Khan</actor_name>
+		<release_year>2018</release_year>
+	</movieinfo>
+	<movieinfo>
+		<movieno>103</movieno>
+		<movie_title>Tiger Return</movie_title>
+		<actor_name>Salman Khan</actor_name>
+		<release_year>2019</release_year>
+	</movieinfo>
+	<movieinfo>
+		<movieno>104</movieno>
+		<movie_title>Welcome</movie_title>
+		<actor_name>Akshay Kumar</actor_name>
+		<release_year>2013</release_year>
+	</movieinfo>
+	<movieinfo>
+		<movieno>105</movieno>
+		<movie_title>Golmal</movie_title>
+		<actor_name>Ajay Devgan</actor_name>
+		<release_year>2009</release_year>
+	</movieinfo>
+</movie>
+

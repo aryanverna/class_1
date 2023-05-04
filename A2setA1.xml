@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="A2setA2.css"?>
+<root>
+<item>
+	<item_name>Lays</item_name>
+	<item_price>20</item_price>
+	<quantity>3</quantity>
+</item>
+<item>
+	<item_name>Kurkure</item_name>
+	<item_price>25</item_price>
+	<quantity>5</quantity>
+</item>
+<item>
+	<item_name>Headphones</item_name>
+	<item_price>2000</item_price>
+	<quantity>2</quantity>
+</item>
+<item>
+	<item_name>Mobile</item_name>
+	<item_price>200000</item_price>
+	<quantity>1</quantity>
+</item>
+<item>
+	<item_name>Watch</item_name>
+	<item_price>2200</item_price>
+	<quantity>4</quantity>
+</item>
+</root>
+
