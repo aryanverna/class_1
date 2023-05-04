@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<body><h2>Demo:Confirm</h2>
+		<p id="msg"></p>
+		<script>
+			var userPreference;
+			if(confirm("Have you started preparing for exam?")==true)
+			{
+				userPreference="Yes!!";
+			}
+			else
+			{
+				userPreference="No,not yet!!";
+			}
+			document.getElementById("msg").innerHTML=userPreference;
+		</script>
+	</body>
+</html>
+
