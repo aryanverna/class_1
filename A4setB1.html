@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function display(str)
+			{
+				x=new XMLHttpRequest();
+				x.onreadystatechange=function()
+				{
+					if(x.readyState==4 && x.status==200)
+					{
+						document.getElementById("t1").innerHTML=x.responseText;
+					}
+				}
+				x.open("GET","A4setB1.php?q="+str,true);
+				x.send();
+			}
+		</script>
+	</head>
+	<body>
+		<form>
+			Teacher List:<select name="names" onchange="display(this.value)">
+			<option value="Aman">Aman</option>
+			<option value="Atharv">Atharv</option>
+			<option value="Dibendu">Dibendu</option>
+				</select>
+		</form>
+		<div id="t1">Teacher's info will be listed</div>
+	</body>
+</html>
