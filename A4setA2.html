@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function validate(name)
+			{
+				x=new XMLHttpRequest();
+				x.open("GET","A4setA2.php?name="+name,true);
+				x.onreadystatechange=function()
+				{
+					if(x.readyState==4)
+					{
+						document.getElementById("res").innerHTML=x.responseText;
+					}
+				}
+				x.send();
+			}
+		</script>
+	</head>
+	<body>
+		<h2>Enter Username: </h2>
+		<form>
+			<input type="text" name="name" onkeyup="validate(this.value)"/>
+			<div id="res"></div>
+		</form>
+	</body>
+</html>
+
+
+

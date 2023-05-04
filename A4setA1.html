@@ -1,0 +1,26 @@
+<html>
+	<body>
+		<script type="text/javascript">
+			function showDetails()
+			{
+				var x=new XMLHttpRequest();
+				
+				x.open("GET","A4setA1.php",true);
+				x.send();
+				x.onreadystatechange=function()
+				{
+					if(x.readyState==4 && x.status==200)
+					{
+						document.getElementById("res").innerHTML=x.responseText;
+					}
+				}
+			}
+		</script>
+		<form>
+		<h2>Click on button to show contact details:</h2>
+		<input type=button onClick="showDetails()" value="Print">
+		<span id="res">
+		</span></form>
+	</body>
+</html>
+
