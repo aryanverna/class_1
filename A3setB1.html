@@ -1,0 +1,29 @@
+<html>
+	<body>
+		<script>
+			function validateform()
+			{
+				var name=document.myform.nm.value;
+				var pass=document.myform.pass.value;
+
+				if(name==null || name=="")
+				{
+					alert("Name cannot be blank");
+					return false;
+				}
+				else if(pass.length<6)
+				{
+					alert("Password atleast 6 characters long");
+					return false;
+				}
+			}
+		</script>
+				<form name="myform" method="post" action="A3setB1.php" onsubmit="return validateform()">
+					Name:<input type="text" name="nm"><br>
+					Password:<input type="password" name="pass"><br>
+
+					<input type="Submit" value="Login">
+
+				</form>
+	</body>
+</html>

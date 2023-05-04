@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Append or Prepend multiple elemenst in jquery</title>
+			<script src="jquery.min.js"></script>
+			<script>
+				$(document).ready(function(){
+					$("#btn1").click(function(){
+						$("p").before("<b>Before</b>");
+					});
+					$("#btn2").click(function(){
+						$("p").after("<b>After</b>");
+					});
+});
+</script>
+</head>
+<body>
+<p>This is an image.Text will be inserted....
+Before and after this!!!!!!<br><br>
+<img src="new.jpeg" height=200 width=200 alt="Symbol">
+</p>
+<br>
+<button id="btn1">Insert before</button>
+<button id="btn2">Insert after</button>
+</body>
+</html>
+
